@@ -1,0 +1,27 @@
+stages:
+    - build
+    - copy
+
+image: node:8.9.4
+
+build_image:
+  stage: build
+  script:
+    - chmod +x custom-build-run.sh
+    - mkdir /rocket.chat/
+    - node -v
+    - npm -v
+    - npm install -g npm@latest
+    - npm -v
+    - npm install -g increase-memory-limit
+    - curl https://install.meteor.com/ | sh
+    - free
+    - npm run postinstall
+    - ls -lisah
+    - ./custom-build-run.sh
+    - cd /rocket.chat/
+    - ls -lisah
+  artifacts:
+    paths:
+    - "/rocket.chat/*"
+    expire_in: 1 week
