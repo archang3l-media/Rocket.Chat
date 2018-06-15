@@ -61,13 +61,10 @@
   "Accounts_EmailVerification": "Email Verification",
   "Accounts_EmailVerification_Description": "Make sure you have correct SMTP settings to use this feature",
   "Accounts_Enrollment_Email": "Enrollment Email",
-<<<<<<< HEAD
   "Accounts_Enrollment_Email_Default": "<h1>Welcome to <strong>[Site_Name]</strong></h1><p>Go to <a href=\"[Site_URL]\"><a href=\"[Site_URL]\">[Site_URL]</a></a> and try the best open source chat solution available today!</p>",
   "Accounts_Enrollment_Email_Description": "You may use the following placeholders: <br /><ul><li>[name], [fname], [lname] for the user's full name, first name or last name, respectively.</li><li>[email] for the user's email.</li><li>[Site_Name] and [Site_URL] for the Application Name and URL respectively.</li></ul>",
-=======
   "Accounts_Enrollment_Email_Default": "<h1>Welcome to <strong>[Site_Name]</strong></h1><p>Go to <a href=\"[Site_URL]\">[Site_URL]</a> and try the best open source chat solution available today!</p>",
   "Accounts_Enrollment_Email_Description": "You may use the following placeholders: <br/><ul><li>[name], [fname], [lname] for the user's full name, first name or last name, respectively.</li><li>[email] for the user's email.</li><li>[Site_Name] and [Site_URL] for the Application Name and URL respectively.</li></ul>",
->>>>>>> develop
   "Accounts_Enrollment_Email_Subject_Default": "Welcome to [Site_Name]",
   "Accounts_ForgetUserSessionOnWindowClose": "Forget User Session on Window Close",
   "Accounts_Iframe_api_method": "Api Method",
@@ -185,11 +182,8 @@
   "Accounts_UseDefaultBlockedDomainsList": "Use Default Blocked Domains List",
   "Accounts_UseDNSDomainCheck": "Use DNS Domain Check",
   "Accounts_UserAddedEmail_Default": "<h1>Welcome to <strong>[Site_Name]</strong></h1><p>Go to <a href=\"[Site_URL]\">[Site_URL]</a> and try the best open source chat solution available today!</p><p>You may login using your email: [email] and password: [password]. You may be required to change it after your first login.",
-<<<<<<< HEAD
   "Accounts_UserAddedEmail_Description": "You may use the following placeholders: <br /><ul><li>[name], [fname], [lname] for the user's full name, first name or last name, respectively.</li><li>[email] for the user's email.</li><li>[password] for the user's password.</li><li>[Site_Name] and [Site_URL] for the Application Name and URL respectively.</li></ul>",
-=======
   "Accounts_UserAddedEmail_Description": "You may use the following placeholders: <br/><ul><li>[name], [fname], [lname] for the user's full name, first name or last name, respectively.</li><li>[email] for the user's email.</li><li>[password] for the user's password.</li><li>[Site_Name] and [Site_URL] for the Application Name and URL respectively.</li></ul>",
->>>>>>> develop
   "Accounts_UserAddedEmailSubject_Default": "You have been added to [Site_Name]",
   "Activate": "Activate",
   "Activity": "Activity",
@@ -1385,11 +1379,8 @@
   "Invitation": "Invitation",
   "Invitation_HTML": "Invitation HTML",
   "Invitation_HTML_Default": "<h1>You have been invited to <strong>[Site_Name]</strong></h1><p>Go to [Site_URL] and try the best open source chat solution available today!</p>",
-<<<<<<< HEAD
   "Invitation_HTML_Description": "You may use the following placeholders: <br /><ul><li>[email] for the recipient email.</li><li>[Site_Name] and [Site_URL] for the Application Name and URL respectively.</li></ul>",
-=======
   "Invitation_HTML_Description": "You may use the following placeholders: <br/><ul><li>[email] for the recipient email.</li><li>[Site_Name] and [Site_URL] for the Application Name and URL respectively.</li></ul>",
->>>>>>> develop
   "Invitation_Subject": "Invitation Subject",
   "Invitation_Subject_Default": "You have been invited to [Site_Name]",
   "Invite_user_to_join_channel": "Invite one user to join this channel",
